@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>StudioPXL | Creative Agency & Photography</title>
+    <meta name="description" content="StudioPXL is a Nairobi-based creative digital agency specializing in high-end commercial photography, videography, and bold brand identities.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor" id="cursor"></div>
+    <nav class="navbar" id="navbar"><div class="nav-container">
+        <a href="#home" class="nav-logo">Studio<span>PXL</span></a>
+        <ul class="nav-links" id="navLinks"><li><a href="#home" class="nav-link active">Home</a></li><li><a href="#work" class="nav-link">Work</a></li><li><a href="#services" class="nav-link">Services</a></li></ul>
+        <a href="#contact" class="nav-cta">Start a Project</a>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div></nav>
+
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="WE PIXELATE">WE PIXELATE<br><span class="accent">REALITY.</span></h1>
+            <p class="hero-sub">Bold commercial photography, visionary videography, and unapologetic brand design for modern rule-breakers.</p>
+            <div class="hero-actions">
+                <a href="#work" class="btn btn-primary">View Portfolio</a>
+            </div>
+        </div>
+        <div class="scroll-indicator"><span>Scroll</span><div class="line"></div></div>
+    </header>
+
+    <section id="services" class="section dark-section">
+        <div class="container">
+            <div class="section-header"><h2>Capabilities</h2><p>Everything you need to break the internet.</p></div>
+            <div class="svc-grid">
+                <div class="svc-card">
+                    <div class="svc-icon">01</div>
+                    <h3>Commercial Photo</h3>
+                    <p>High-end product, fashion, and lifestyle photography shot in our studio or on location.</p>
+                </div>
+                <div class="svc-card">
+                    <div class="svc-icon">02</div>
+                    <h3>Brand Identity</h3>
+                    <p>Logos, typography, color systems, and visual guidelines that make your brand impossible to ignore.</p>
+                </div>
+                <div class="svc-card">
+                    <div class="svc-icon">03</div>
+                    <h3>Video Production</h3>
+                    <p>Cinematic brand films, social media reels, and high-impact commercial spots.</p>
+                </div>
+                <div class="svc-card">
+                    <div class="svc-icon">04</div>
+                    <h3>Web / UI Design</h3>
+                    <p>Immersive digital experiences and high-converting interfaces built for the modern web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ticker-section">
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <span>PHOTOGRAPHY</span> • <span>VIDEOGRAPHY</span> • <span>BRANDING</span> • <span>WEB DESIGN</span> • 
+                <span>PHOTOGRAPHY</span> • <span>VIDEOGRAPHY</span> • <span>BRANDING</span> • <span>WEB DESIGN</span> • 
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section port-section">
+        <div class="container">
+            <div class="section-header"><h2>Selected Works</h2><p>We don't do boring.</p></div>
+            <div class="work-grid">
+                <div class="work-item w-large">
+                    <div class="work-img img-1">Fashion Editorial</div>
+                    <div class="work-overlay"><h3>Neon Dreams</h3><p>Fashion Photography</p></div>
+                </div>
+                <div class="work-item">
+                    <div class="work-img img-2">Tech Product</div>
+                    <div class="work-overlay"><h3>Quantum</h3><p>Product Shoot</p></div>
+                </div>
+                <div class="work-item">
+                    <div class="work-img img-3">Brand Identity</div>
+                    <div class="work-overlay"><h3>Onyx Coffee</h3><p>Branding</p></div>
+                </div>
+                <div class="work-item w-large">
+                    <div class="work-img img-4">Commercial Video</div>
+                    <div class="work-overlay"><h3>Urban Run</h3><p>Video Campaign</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container"><div class="contact-wrap">
+            <div class="contact-info">
+                <h2>READY TO<br><span class="accent">CREATE?</span></h2>
+                <p>Fill out the project brief form, and our creative directors will get back to you within 24 hours.</p>
+                <div class="contact-details">
+                    <p>Email: hello@studiopxl.co.ke</p>
+                    <p>Phone: +254 799 000 111</p>
+                    <p>Studio: Kilimani, Nairobi</p>
+                </div>
+            </div>
+            <div class="contact-form-box">
+                <form id="contactForm">
+                    <div class="form-row"><div class="form-group"><input type="text" name="name" placeholder="Name / Company" required></div><div class="form-group"><input type="email" name="email" placeholder="Email Address" required></div></div>
+                    <div class="form-group"><select name="service" required><option value="">What do you need?</option><option>Commercial Photography</option><option>Video Production</option><option>Brand Identity</option><option>Web Design</option><option>Full Campaign</option></select></div>
+                    <div class="form-group"><select name="budget"><option value="">Estimated Budget (Kes)</option><option>50k - 150k</option><option>150k - 500k</option><option>500k+</option></select></div>
+                    <div class="form-group"><textarea name="details" rows="4" placeholder="Tell us about the project vision..." required></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Brief</button>
+                </form>
+            </div>
+        </div></div>
+    </section>
+
+    <footer class="footer"><div class="container">
+        <div class="f-grid">
+            <div class="f-brand"><a href="#home" class="nav-logo">Studio<span>PXL</span></a></div>
+            <div class="f-socials">
+                <a href="#">Instagram</a>
+                <a href="#">Behance</a>
+                <a href="#">Vimeo</a>
+            </div>
+        </div>
+        <div class="f-bottom">
+            <p>© 2024 StudioPXL. All Rights Reserved.</p>
+            <a href="admin.html" class="admin-link">Dashboard</a>
+        </div>
+    </div></footer>
+
+    <div class="toast" id="toast"></div>
+    <script src="script.js"></script>
+</body></html>
